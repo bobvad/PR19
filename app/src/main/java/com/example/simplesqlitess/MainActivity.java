@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         if(C.moveToFirst())
         {
             do {
-                Data += "Id=" + C.getInt(0) + ", Name=" + C.getString(1) + ", Mail=" + C.getString(2) + "\r\n"
+                Data += "Id=" + C.getInt(0) + ", Name=" + C.getString(1) + ", Mail=" + C.getString(2) + "\r\n";
             } while (C.moveToNext());
         }
         C.close();
